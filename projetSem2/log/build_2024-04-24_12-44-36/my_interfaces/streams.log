@@ -1,0 +1,259 @@
+[0.008s] Invoking command in '/home/amin22/dev/projetSem2/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/amin22/dev/projetSem2/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/amin22/dev/projetSem2/install/my_interfaces
+[0.016s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.115s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.116s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.119s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.218s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.430s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.583s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.842s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.847s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.069s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.069s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.069s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.069s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.083s] -- Found PythonExtra: .so  
+[1.140s] -- Added test 'lint_cmake' to check CMake code style
+[1.140s] -- Added test 'xmllint' to check XML markup files
+[1.147s] -- Configuring done
+[1.181s] -- Generating done
+[1.183s] -- Build files have been written to: /home/amin22/dev/projetSem2/build/my_interfaces
+[1.190s] Invoked command in '/home/amin22/dev/projetSem2/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/amin22/dev/projetSem2/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/amin22/dev/projetSem2/install/my_interfaces
+[1.192s] Invoking command in '/home/amin22/dev/projetSem2/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/amin22/dev/projetSem2/build/my_interfaces -- -j8 -l8
+[1.219s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.227s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.233s] [  5%] Built target ament_cmake_python_copy_my_interfaces
+[1.435s] running egg_info
+[1.436s] creating my_interfaces.egg-info
+[1.436s] writing my_interfaces.egg-info/PKG-INFO
+[1.436s] writing dependency_links to my_interfaces.egg-info/dependency_links.txt
+[1.436s] writing top-level names to my_interfaces.egg-info/top_level.txt
+[1.437s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.440s] reading manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.440s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.466s] [  5%] Built target ament_cmake_python_build_my_interfaces_egg
+[1.487s] [  5%] Built target my_interfaces__cpp
+[1.493s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.493s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.493s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.554s] [ 15%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/text__functions.c.o[0m
+[1.556s] [ 17%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/llm_input_output__functions.c.o[0m
+[1.654s] [ 20%] [32m[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so[0m
+[1.735s] [ 20%] Built target my_interfaces__rosidl_generator_c
+[1.745s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.745s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.745s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.768s] [ 30%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/srv/detail/dds_fastrtps/llm_input_output__type_support.cpp.o[0m
+[1.768s] [ 33%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/text__type_support.cpp.o[0m
+[1.780s] [ 35%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/text__type_support.cpp.o[0m
+[1.784s] [ 38%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/srv/llm_input_output__type_support.cpp.o[0m
+[1.827s] [ 41%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/text__type_support.cpp.o[0m
+[2.131s] [ 43%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/text__type_support.cpp.o[0m
+[2.179s] [ 46%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/llm_input_output__type_support.cpp.o[0m
+[2.217s] [ 48%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so[0m
+[2.242s] [ 51%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so[0m
+[2.249s] [ 53%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/llm_input_output__type_support.cpp.o[0m
+[2.250s] [ 56%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/text__type_support_c.cpp.o[0m
+[2.256s] [ 58%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/text__type_support.c.o[0m
+[2.294s] [ 61%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/llm_input_output__type_support.c.o[0m
+[2.337s] [ 64%] [32m[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.370s] [ 64%] Built target my_interfaces__rosidl_typesupport_c
+[2.379s] [ 66%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/llm_input_output__type_support_c.cpp.o[0m
+[2.381s] [ 66%] Built target my_interfaces__rosidl_typesupport_cpp
+[2.446s] [ 66%] Built target my_interfaces__rosidl_typesupport_introspection_c
+[2.500s] [ 69%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.609s] [ 69%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.645s] [ 71%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.690s] [ 74%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.746s] [ 74%] Built target my_interfaces__rosidl_typesupport_introspection_cpp
+[2.779s] [ 74%] Built target my_interfaces__rosidl_typesupport_fastrtps_c
+[2.791s] [ 74%] Built target my_interfaces
+[2.802s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.154s] [ 76%] Built target my_interfaces__py
+[3.167s] [ 82%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_text_s.c.o[0m
+[3.167s] [ 82%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_llm_input_output_s.c.o[0m
+[3.284s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.so[0m
+[3.359s] [ 84%] Built target my_interfaces__rosidl_generator_py
+[3.372s] [ 87%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.373s] [ 89%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.373s] [ 92%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.443s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.444s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.446s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.501s] [100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.501s] [100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.501s] [100%] Built target my_interfaces__rosidl_typesupport_c__pyext
+[3.510s] Invoked command in '/home/amin22/dev/projetSem2/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/amin22/dev/projetSem2/build/my_interfaces -- -j8 -l8
+[3.570s] Invoking command in '/home/amin22/dev/projetSem2/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/amin22/dev/projetSem2/build/my_interfaces
+[3.576s] -- Install configuration: ""
+[3.576s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces
+[3.577s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces
+[3.577s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[3.577s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/llm_input_output.h
+[3.577s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[3.578s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__type_support.h
+[3.578s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__struct.h
+[3.578s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__functions.h
+[3.578s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__functions.c
+[3.578s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[3.578s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/text.h
+[3.578s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.579s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[3.579s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__struct.h
+[3.579s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__functions.h
+[3.579s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__type_support.h
+[3.579s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__functions.c
+[3.579s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/environment/library_path.sh
+[3.579s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/environment/library_path.dsv
+[3.580s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so
+[3.580s] -- Set runtime path of "/home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""
+[3.580s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces
+[3.580s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[3.580s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[3.580s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__rosidl_typesupport_fastrtps_c.h
+[3.580s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[3.581s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.581s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[3.581s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__rosidl_typesupport_fastrtps_c.h
+[3.581s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.581s] -- Set runtime path of "/home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.581s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces
+[3.581s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[3.581s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[3.581s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__rosidl_typesupport_introspection_c.h
+[3.581s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__type_support.c
+[3.582s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[3.582s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.582s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[3.582s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__rosidl_typesupport_introspection_c.h
+[3.582s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__type_support.c
+[3.582s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so
+[3.582s] -- Set runtime path of "/home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.582s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so
+[3.582s] -- Set runtime path of "/home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""
+[3.582s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces
+[3.583s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[3.583s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/llm_input_output.hpp
+[3.583s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[3.583s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__builder.hpp
+[3.583s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__traits.hpp
+[3.583s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__struct.hpp
+[3.583s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[3.583s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/text.hpp
+[3.583s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[3.584s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__traits.hpp
+[3.584s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__builder.hpp
+[3.584s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__struct.hpp
+[3.584s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces
+[3.584s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[3.584s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[3.584s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__rosidl_typesupport_fastrtps_cpp.hpp
+[3.584s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/dds_fastrtps
+[3.584s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[3.584s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.585s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[3.585s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__rosidl_typesupport_fastrtps_cpp.hpp
+[3.585s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dds_fastrtps
+[3.585s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.585s] -- Set runtime path of "/home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.585s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces
+[3.585s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[3.585s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[3.585s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__type_support.cpp
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/llm_input_output__rosidl_typesupport_introspection_cpp.hpp
+[3.586s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[3.586s] -- Up-to-date: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__type_support.cpp
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/text__rosidl_typesupport_introspection_cpp.hpp
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.586s] -- Set runtime path of "/home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so
+[3.586s] -- Set runtime path of "/home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces
+[3.586s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_llm_input_output.py
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_llm_input_output_s.c
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_text_s.c
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_text.py
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.587s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.614s] Listing '/home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...
+[3.614s] Compiling '/home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py'...
+[3.614s] Listing '/home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg'...
+[3.614s] Compiling '/home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py'...
+[3.614s] Compiling '/home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_text.py'...
+[3.614s] Listing '/home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv'...
+[3.614s] Compiling '/home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py'...
+[3.614s] Compiling '/home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_llm_input_output.py'...
+[3.618s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.618s] -- Set runtime path of "/home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.619s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.619s] -- Set runtime path of "/home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.619s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.619s] -- Set runtime path of "/home/amin22/dev/projetSem2/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.620s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so
+[3.620s] -- Set runtime path of "/home/amin22/dev/projetSem2/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""
+[3.621s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/msg/Text.idl
+[3.621s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/srv/LlmInputOutput.idl
+[3.621s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/msg/Text.msg
+[3.621s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/srv/LlmInputOutput.srv
+[3.621s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/srv/LlmInputOutput_Request.msg
+[3.622s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/srv/LlmInputOutput_Response.msg
+[3.622s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces
+[3.622s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces
+[3.622s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh
+[3.622s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv
+[3.622s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/environment/path.sh
+[3.623s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/environment/path.dsv
+[3.623s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/local_setup.bash
+[3.623s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/local_setup.sh
+[3.623s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/local_setup.zsh
+[3.623s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/local_setup.dsv
+[3.623s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/package.dsv
+[3.624s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces
+[3.624s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake
+[3.624s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.624s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.624s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.624s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.625s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.625s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake
+[3.625s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.625s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake
+[3.625s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.625s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.626s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.626s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.626s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake
+[3.626s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.626s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake
+[3.626s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.627s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.627s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.627s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.627s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.627s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.627s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.628s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.628s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake
+[3.628s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake
+[3.628s] -- Installing: /home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/package.xml
+[3.631s] Invoked command in '/home/amin22/dev/projetSem2/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/amin22/dev/projetSem2/build/my_interfaces

@@ -1,0 +1,4 @@
+source;share/llmchat/local_setup.bash
+source;share/llmchat/local_setup.dsv
+source;share/llmchat/local_setup.sh
+source;share/llmchat/local_setup.zsh

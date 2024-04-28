@@ -1,0 +1,42 @@
+[0.012s] Invoking command in '/home/amin22/dev/projetSem2/build/llmchat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/amin22/dev/projetSem2/src/llmchat -DCMAKE_INSTALL_PREFIX=/home/amin22/dev/projetSem2/install/llmchat
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.497s] -- The CXX compiler identification is GNU 11.4.0
+[0.726s] -- Detecting C compiler ABI info
+[0.832s] -- Detecting C compiler ABI info - done
+[0.838s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.838s] -- Detecting C compile features
+[0.838s] -- Detecting C compile features - done
+[0.840s] -- Detecting CXX compiler ABI info
+[0.949s] -- Detecting CXX compiler ABI info - done
+[0.953s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.954s] -- Detecting CXX compile features
+[0.954s] -- Detecting CXX compile features - done
+[0.963s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.063s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.156s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.223s] -- Added test 'lint_cmake' to check CMake code style
+[1.224s] -- Added test 'xmllint' to check XML markup files
+[1.226s] -- Configuring done
+[1.228s] -- Generating done
+[1.228s] -- Build files have been written to: /home/amin22/dev/projetSem2/build/llmchat
+[1.231s] Invoked command in '/home/amin22/dev/projetSem2/build/llmchat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/amin22/dev/projetSem2/src/llmchat -DCMAKE_INSTALL_PREFIX=/home/amin22/dev/projetSem2/install/llmchat
+[1.233s] Invoking command in '/home/amin22/dev/projetSem2/build/llmchat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amin22/dev/projetSem2/build/llmchat -- -j8 -l8
+[1.258s] Invoked command in '/home/amin22/dev/projetSem2/build/llmchat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amin22/dev/projetSem2/build/llmchat -- -j8 -l8
+[1.275s] Invoking command in '/home/amin22/dev/projetSem2/build/llmchat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amin22/dev/projetSem2/build/llmchat
+[1.279s] -- Install configuration: ""
+[1.279s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/ament_index/resource_index/package_run_dependencies/llmchat
+[1.279s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/ament_index/resource_index/parent_prefix_path/llmchat
+[1.280s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/environment/ament_prefix_path.sh
+[1.280s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/environment/ament_prefix_path.dsv
+[1.280s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/environment/path.sh
+[1.280s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/environment/path.dsv
+[1.280s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/local_setup.bash
+[1.280s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/local_setup.sh
+[1.280s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/local_setup.zsh
+[1.280s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/local_setup.dsv
+[1.280s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.dsv
+[1.281s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/ament_index/resource_index/packages/llmchat
+[1.281s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/cmake/llmchatConfig.cmake
+[1.281s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/cmake/llmchatConfig-version.cmake
+[1.281s] -- Installing: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.xml
+[1.282s] Invoked command in '/home/amin22/dev/projetSem2/build/llmchat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amin22/dev/projetSem2/build/llmchat

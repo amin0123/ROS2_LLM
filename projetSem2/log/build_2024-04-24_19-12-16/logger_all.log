@@ -1,0 +1,264 @@
+[0.131s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.131s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f37e319dc90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f37e319d810>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f37e319d810>>)
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.262s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/amin22/dev/projetSem2'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_chat2) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_chat2) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_chat2) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_chat2) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_chat2) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_chat2) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_chat2) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_chat2) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/llm_chat2) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/llm_chat2' with type 'ros.ament_python' and name 'llm_chat2'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/llmchat) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/llmchat) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/llmchat) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/llmchat) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/llmchat) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/llmchat) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/llmchat) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/llmchat) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/llmchat) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/llmchat' with type 'ros.ament_cmake' and name 'llmchat'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_interfaces' with type 'ros.ament_cmake' and name 'my_interfaces'
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.301s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/amin22/dev/projetSem2/install
+[0.301s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/amin22/dev/myrobot_ws/install
+[0.302s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'llmchat' build argument 'cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'llmchat' build argument 'cmake_target' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'llmchat' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'llmchat' build argument 'cmake_clean_cache' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'llmchat' build argument 'cmake_clean_first' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'llmchat' build argument 'cmake_force_configure' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'llmchat' build argument 'ament_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'llmchat' build argument 'catkin_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'llmchat' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.346s] DEBUG:colcon.colcon_core.verb:Building package 'llmchat' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amin22/dev/projetSem2/build/llmchat', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amin22/dev/projetSem2/install/llmchat', 'merge_install': False, 'path': '/home/amin22/dev/projetSem2/src/llmchat', 'symlink_install': False, 'test_result_base': None}
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.346s] DEBUG:colcon.colcon_core.verb:Building package 'my_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amin22/dev/projetSem2/build/my_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amin22/dev/projetSem2/install/my_interfaces', 'merge_install': False, 'path': '/home/amin22/dev/projetSem2/src/my_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'llm_chat2' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'llm_chat2' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'llm_chat2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'llm_chat2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'llm_chat2' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'llm_chat2' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'llm_chat2' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'llm_chat2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'llm_chat2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'llm_chat2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amin22/dev/projetSem2/build/llm_chat2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amin22/dev/projetSem2/install/llm_chat2', 'merge_install': False, 'path': '/home/amin22/dev/projetSem2/src/llm_chat2', 'symlink_install': False, 'test_result_base': None}
+[0.347s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.348s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.348s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amin22/dev/projetSem2/src/my_interfaces' with build type 'ament_cmake'
+[0.348s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amin22/dev/projetSem2/src/my_interfaces'
+[0.350s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amin22/dev/projetSem2/src/llmchat' with build type 'ament_cmake'
+[0.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amin22/dev/projetSem2/src/llmchat'
+[0.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amin22/dev/projetSem2/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin22/dev/projetSem2/install/llm_chat2:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/amin22/dev/projetSem2/build/my_interfaces -- -j8 -l8
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amin22/dev/projetSem2/build/llmchat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin22/dev/projetSem2/install/llm_chat2:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/amin22/dev/projetSem2/build/llmchat -- -j8 -l8
+[0.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amin22/dev/projetSem2/build/llmchat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin22/dev/projetSem2/install/llm_chat2:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/amin22/dev/projetSem2/build/llmchat -- -j8 -l8
+[0.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amin22/dev/projetSem2/build/llmchat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin22/dev/projetSem2/install/llm_chat2:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/amin22/dev/projetSem2/build/llmchat
+[0.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llmchat)
+[0.485s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llmchat' for CMake module files
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llmchat' for CMake config files
+[0.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('llmchat', 'cmake_prefix_path')
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/hook/cmake_prefix_path.ps1'
+[0.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amin22/dev/projetSem2/build/llmchat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin22/dev/projetSem2/install/llm_chat2:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/amin22/dev/projetSem2/build/llmchat
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/hook/cmake_prefix_path.dsv'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/hook/cmake_prefix_path.sh'
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llmchat/bin'
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llmchat/lib/pkgconfig/llmchat.pc'
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llmchat/lib/python3.10/site-packages'
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llmchat/bin'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.dsv'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.sh'
+[0.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.bash'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.zsh'
+[0.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amin22/dev/projetSem2/install/llmchat/share/colcon-core/packages/llmchat)
+[0.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llmchat)
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llmchat' for CMake module files
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llmchat' for CMake config files
+[0.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('llmchat', 'cmake_prefix_path')
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/hook/cmake_prefix_path.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/hook/cmake_prefix_path.dsv'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/hook/cmake_prefix_path.sh'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llmchat/bin'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llmchat/lib/pkgconfig/llmchat.pc'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llmchat/lib/python3.10/site-packages'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llmchat/bin'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.sh'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.bash'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.zsh'
+[0.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amin22/dev/projetSem2/install/llmchat/share/colcon-core/packages/llmchat)
+[0.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amin22/dev/projetSem2/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin22/dev/projetSem2/install/llm_chat2:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/amin22/dev/projetSem2/build/my_interfaces -- -j8 -l8
+[0.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amin22/dev/projetSem2/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin22/dev/projetSem2/install/llm_chat2:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/amin22/dev/projetSem2/build/my_interfaces
+[0.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_interfaces)
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces' for CMake module files
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amin22/dev/projetSem2/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin22/dev/projetSem2/install/llm_chat2:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/amin22/dev/projetSem2/build/my_interfaces
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces' for CMake config files
+[0.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'cmake_prefix_path')
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.ps1'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.dsv'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.sh'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces/lib'
+[0.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'ld_library_path_lib')
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.dsv'
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.sh'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces/bin'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces/lib/pkgconfig/my_interfaces.pc'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces/lib/python3.10/site-packages'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces/bin'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/package.ps1'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/package.dsv'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/package.sh'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/package.bash'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/package.zsh'
+[0.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amin22/dev/projetSem2/install/my_interfaces/share/colcon-core/packages/my_interfaces)
+[0.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_interfaces)
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces' for CMake module files
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces' for CMake config files
+[0.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'cmake_prefix_path')
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.ps1'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.dsv'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.sh'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces/lib'
+[0.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'ld_library_path_lib')
+[0.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.ps1'
+[0.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.dsv'
+[0.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.sh'
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces/bin'
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces/lib/pkgconfig/my_interfaces.pc'
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces/lib/python3.10/site-packages'
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/my_interfaces/bin'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/package.ps1'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/package.dsv'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/package.sh'
+[0.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/package.bash'
+[0.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/my_interfaces/share/my_interfaces/package.zsh'
+[0.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amin22/dev/projetSem2/install/my_interfaces/share/colcon-core/packages/my_interfaces)
+[0.996s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/amin22/dev/projetSem2/src/llm_chat2' with build type 'ament_python'
+[0.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_chat2', 'ament_prefix_path')
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/llm_chat2/share/llm_chat2/hook/ament_prefix_path.ps1'
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amin22/dev/projetSem2/install/llm_chat2/share/llm_chat2/hook/ament_prefix_path.dsv'
+[0.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/llm_chat2/share/llm_chat2/hook/ament_prefix_path.sh'
+[0.998s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.998s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.610s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/amin22/dev/projetSem2/src/llm_chat2'
+[1.610s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.610s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amin22/dev/projetSem2/src/llm_chat2': PYTHONPATH=/home/amin22/dev/projetSem2/build/llm_chat2/prefix_override:/home/amin22/dev/projetSem2/install/llm_chat2/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/llm_chat2 build --build-base /home/amin22/dev/projetSem2/build/llm_chat2/build install --record /home/amin22/dev/projetSem2/build/llm_chat2/install.log --single-version-externally-managed install_data
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llm_chat2' for CMake module files
+[2.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amin22/dev/projetSem2/src/llm_chat2' returned '0': PYTHONPATH=/home/amin22/dev/projetSem2/build/llm_chat2/prefix_override:/home/amin22/dev/projetSem2/install/llm_chat2/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/llm_chat2 build --build-base /home/amin22/dev/projetSem2/build/llm_chat2/build install --record /home/amin22/dev/projetSem2/build/llm_chat2/install.log --single-version-externally-managed install_data
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llm_chat2' for CMake config files
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llm_chat2/lib'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llm_chat2/bin'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llm_chat2/lib/pkgconfig/llm_chat2.pc'
+[2.575s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llm_chat2/lib/python3.10/site-packages'
+[2.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_chat2', 'pythonpath')
+[2.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/llm_chat2/share/llm_chat2/hook/pythonpath.ps1'
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amin22/dev/projetSem2/install/llm_chat2/share/llm_chat2/hook/pythonpath.dsv'
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amin22/dev/projetSem2/install/llm_chat2/share/llm_chat2/hook/pythonpath.sh'
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/amin22/dev/projetSem2/install/llm_chat2/bin'
+[2.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llm_chat2)
+[2.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/llm_chat2/share/llm_chat2/package.ps1'
+[2.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amin22/dev/projetSem2/install/llm_chat2/share/llm_chat2/package.dsv'
+[2.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/llm_chat2/share/llm_chat2/package.sh'
+[2.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/llm_chat2/share/llm_chat2/package.bash'
+[2.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/amin22/dev/projetSem2/install/llm_chat2/share/llm_chat2/package.zsh'
+[2.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amin22/dev/projetSem2/install/llm_chat2/share/colcon-core/packages/llm_chat2)
+[2.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.581s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.625s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.625s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.625s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.625s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.626s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.627s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amin22/dev/projetSem2/install/local_setup.ps1'
+[2.628s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amin22/dev/projetSem2/install/_local_setup_util_ps1.py'
+[2.629s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amin22/dev/projetSem2/install/setup.ps1'
+[2.630s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amin22/dev/projetSem2/install/local_setup.sh'
+[2.631s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amin22/dev/projetSem2/install/_local_setup_util_sh.py'
+[2.631s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amin22/dev/projetSem2/install/setup.sh'
+[2.633s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amin22/dev/projetSem2/install/local_setup.bash'
+[2.633s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amin22/dev/projetSem2/install/setup.bash'
+[2.634s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amin22/dev/projetSem2/install/local_setup.zsh'
+[2.634s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amin22/dev/projetSem2/install/setup.zsh'

@@ -1,0 +1,6 @@
+Invoking command in '/home/amin22/dev/projetSem2/build/llmchat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/amin22/dev/projetSem2/src/llmchat -DCMAKE_INSTALL_PREFIX=/home/amin22/dev/projetSem2/install/llmchat
+Invoked command in '/home/amin22/dev/projetSem2/build/llmchat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/amin22/dev/projetSem2/src/llmchat -DCMAKE_INSTALL_PREFIX=/home/amin22/dev/projetSem2/install/llmchat
+Invoking command in '/home/amin22/dev/projetSem2/build/llmchat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amin22/dev/projetSem2/build/llmchat -- -j8 -l8
+Invoked command in '/home/amin22/dev/projetSem2/build/llmchat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amin22/dev/projetSem2/build/llmchat -- -j8 -l8
+Invoking command in '/home/amin22/dev/projetSem2/build/llmchat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amin22/dev/projetSem2/build/llmchat
+Invoked command in '/home/amin22/dev/projetSem2/build/llmchat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amin22/dev/projetSem2/build/llmchat

@@ -1,0 +1,54 @@
+[0.011s] Invoking command in '/home/amin22/dev/projetSem2/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/amin22/dev/projetSem2/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/amin22/dev/projetSem2/install/my_interfaces
+[0.025s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.120s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.166s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.264s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.265s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.269s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.286s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.366s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.555s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.555s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.556s]   my_interfaces --arguments-file
+[0.556s]   /home/amin22/dev/projetSem2/build/my_interfaces/rosidl_adapter__arguments__my_interfaces.json
+[0.556s]   --output-dir
+[0.556s]   /home/amin22/dev/projetSem2/build/my_interfaces/rosidl_adapter/my_interfaces
+[0.556s]   --output-file
+[0.556s]   /home/amin22/dev/projetSem2/build/my_interfaces/rosidl_adapter/my_interfaces.idls)
+[0.556s]   returned error code 1:
+[0.556s] 
+[0.556s]   Traceback (most recent call last):
+[0.556s] 
+[0.556s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.556s]       return _run_code(code, main_globals, None,
+[0.556s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.556s]       exec(code, run_globals)
+[0.556s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.556s]       sys.exit(main())
+[0.556s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.556s]       abs_idl_file = convert_to_idl(
+[0.556s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.556s]       return convert_srv_to_idl(
+[0.556s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.556s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.556s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.556s]       request_message = parse_message_string(
+[0.556s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.557s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.557s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.557s]       self.base_type = BaseType(
+[0.557s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.557s]       raise InvalidResourceName(
+[0.557s] 
+[0.557s]   rosidl_adapter.parser.InvalidResourceName: 'llmInputOutput_Request' is an
+[0.557s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.557s] 
+[0.557s] Call Stack (most recent call first):
+[0.557s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.557s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[0.557s] 
+[0.557s] [0m
+[0.557s] -- Configuring incomplete, errors occurred!
+[0.557s] See also "/home/amin22/dev/projetSem2/build/my_interfaces/CMakeFiles/CMakeOutput.log".
+[0.564s] Invoked command in '/home/amin22/dev/projetSem2/build/my_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/amin22/dev/projetSem2/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/amin22/dev/projetSem2/install/my_interfaces

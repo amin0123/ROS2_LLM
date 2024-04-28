@@ -1,0 +1,15 @@
+/home/amin22/dev/projetSem2/install/llmchat/share/ament_index/resource_index/package_run_dependencies/llmchat
+/home/amin22/dev/projetSem2/install/llmchat/share/ament_index/resource_index/parent_prefix_path/llmchat
+/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/environment/ament_prefix_path.sh
+/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/environment/ament_prefix_path.dsv
+/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/environment/path.sh
+/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/environment/path.dsv
+/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/local_setup.bash
+/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/local_setup.sh
+/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/local_setup.zsh
+/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/local_setup.dsv
+/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.dsv
+/home/amin22/dev/projetSem2/install/llmchat/share/ament_index/resource_index/packages/llmchat
+/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/cmake/llmchatConfig.cmake
+/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/cmake/llmchatConfig-version.cmake
+/home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.xml

@@ -1,0 +1,20 @@
+[0.023s] Invoking command in '/home/amin22/dev/projetSem2/build/llmchat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin22/dev/projetSem2/install/llm_chat2:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/amin22/dev/projetSem2/build/llmchat -- -j8 -l8
+[0.081s] Invoked command in '/home/amin22/dev/projetSem2/build/llmchat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin22/dev/projetSem2/install/llm_chat2:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/amin22/dev/projetSem2/build/llmchat -- -j8 -l8
+[0.109s] Invoking command in '/home/amin22/dev/projetSem2/build/llmchat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin22/dev/projetSem2/install/llm_chat2:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/amin22/dev/projetSem2/build/llmchat
+[0.119s] -- Install configuration: ""
+[0.123s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/ament_index/resource_index/package_run_dependencies/llmchat
+[0.123s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/ament_index/resource_index/parent_prefix_path/llmchat
+[0.123s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/environment/ament_prefix_path.sh
+[0.124s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/environment/ament_prefix_path.dsv
+[0.124s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/environment/path.sh
+[0.124s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/environment/path.dsv
+[0.124s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/local_setup.bash
+[0.124s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/local_setup.sh
+[0.124s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/local_setup.zsh
+[0.124s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/local_setup.dsv
+[0.124s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.dsv
+[0.125s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/ament_index/resource_index/packages/llmchat
+[0.125s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/cmake/llmchatConfig.cmake
+[0.125s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/cmake/llmchatConfig-version.cmake
+[0.125s] -- Up-to-date: /home/amin22/dev/projetSem2/install/llmchat/share/llmchat/package.xml
+[0.136s] Invoked command in '/home/amin22/dev/projetSem2/build/llmchat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin22/dev/projetSem2/install/llm_chat2:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/amin22/dev/projetSem2/build/llmchat

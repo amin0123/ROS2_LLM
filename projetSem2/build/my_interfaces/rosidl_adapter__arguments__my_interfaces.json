@@ -1,0 +1,7 @@
+{
+  "package_name": "my_interfaces",
+  "non_idl_tuples": [
+    "/home/amin22/dev/projetSem2/src/my_interfaces:msg/Text.msg",
+    "/home/amin22/dev/projetSem2/src/my_interfaces:srv/LlmInputOutput.srv"
+  ]
+}
