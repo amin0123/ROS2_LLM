@@ -1,0 +1,4 @@
+[console_scripts]
+client = llm_chat2.clientchat:main
+service = llm_chat2.gemmachat:main
+

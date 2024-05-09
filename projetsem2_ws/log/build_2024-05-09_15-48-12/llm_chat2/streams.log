@@ -1,0 +1,32 @@
+[0.544s] Invoking command in '/home/amin/projetsem2_ws/src/llm_chat2': PYTHONPATH=/home/amin/projetsem2_ws/build/llm_chat2/prefix_override:/home/amin/projetsem2_ws/install/llm_chat2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/llm_chat2 build --build-base /home/amin/projetsem2_ws/build/llm_chat2/build install --record /home/amin/projetsem2_ws/build/llm_chat2/install.log --single-version-externally-managed install_data
+[0.804s] running egg_info
+[0.805s] writing ../../build/llm_chat2/llm_chat2.egg-info/PKG-INFO
+[0.805s] writing dependency_links to ../../build/llm_chat2/llm_chat2.egg-info/dependency_links.txt
+[0.805s] writing entry points to ../../build/llm_chat2/llm_chat2.egg-info/entry_points.txt
+[0.805s] writing requirements to ../../build/llm_chat2/llm_chat2.egg-info/requires.txt
+[0.805s] writing top-level names to ../../build/llm_chat2/llm_chat2.egg-info/top_level.txt
+[0.807s] reading manifest file '../../build/llm_chat2/llm_chat2.egg-info/SOURCES.txt'
+[0.807s] adding license file 'LICENSE'
+[0.808s] writing manifest file '../../build/llm_chat2/llm_chat2.egg-info/SOURCES.txt'
+[0.808s] running build
+[0.808s] running build_py
+[0.808s] copying llm_chat2/rag.py -> /home/amin/projetsem2_ws/build/llm_chat2/build/lib/llm_chat2
+[0.808s] copying llm_chat2/app.py -> /home/amin/projetsem2_ws/build/llm_chat2/build/lib/llm_chat2
+[0.808s] copying llm_chat2/clientchat.py -> /home/amin/projetsem2_ws/build/llm_chat2/build/lib/llm_chat2
+[0.808s] running install
+[0.809s] running install_lib
+[0.810s] copying /home/amin/projetsem2_ws/build/llm_chat2/build/lib/llm_chat2/rag.py -> /home/amin/projetsem2_ws/install/llm_chat2/lib/python3.10/site-packages/llm_chat2
+[0.810s] copying /home/amin/projetsem2_ws/build/llm_chat2/build/lib/llm_chat2/app.py -> /home/amin/projetsem2_ws/install/llm_chat2/lib/python3.10/site-packages/llm_chat2
+[0.810s] copying /home/amin/projetsem2_ws/build/llm_chat2/build/lib/llm_chat2/clientchat.py -> /home/amin/projetsem2_ws/install/llm_chat2/lib/python3.10/site-packages/llm_chat2
+[0.810s] byte-compiling /home/amin/projetsem2_ws/install/llm_chat2/lib/python3.10/site-packages/llm_chat2/rag.py to rag.cpython-310.pyc
+[0.812s] byte-compiling /home/amin/projetsem2_ws/install/llm_chat2/lib/python3.10/site-packages/llm_chat2/app.py to app.cpython-310.pyc
+[0.813s] byte-compiling /home/amin/projetsem2_ws/install/llm_chat2/lib/python3.10/site-packages/llm_chat2/clientchat.py to clientchat.cpython-310.pyc
+[0.814s] running install_data
+[0.814s] running install_egg_info
+[0.816s] removing '/home/amin/projetsem2_ws/install/llm_chat2/lib/python3.10/site-packages/llm_chat2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.816s] Copying ../../build/llm_chat2/llm_chat2.egg-info to /home/amin/projetsem2_ws/install/llm_chat2/lib/python3.10/site-packages/llm_chat2-0.0.0-py3.10.egg-info
+[0.817s] running install_scripts
+[0.834s] Installing client script to /home/amin/projetsem2_ws/install/llm_chat2/lib/llm_chat2
+[0.835s] Installing service script to /home/amin/projetsem2_ws/install/llm_chat2/lib/llm_chat2
+[0.835s] writing list of installed files to '/home/amin/projetsem2_ws/build/llm_chat2/install.log'
+[0.868s] Invoked command in '/home/amin/projetsem2_ws/src/llm_chat2' returned '0': PYTHONPATH=/home/amin/projetsem2_ws/build/llm_chat2/prefix_override:/home/amin/projetsem2_ws/install/llm_chat2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/llm_chat2 build --build-base /home/amin/projetsem2_ws/build/llm_chat2/build install --record /home/amin/projetsem2_ws/build/llm_chat2/install.log --single-version-externally-managed install_data
