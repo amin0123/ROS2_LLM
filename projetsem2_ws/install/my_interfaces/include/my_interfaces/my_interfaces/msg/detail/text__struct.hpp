@@ -38,30 +38,42 @@ struct Text_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->txt = "";
+      this->input = "";
+      this->output = "";
     }
   }
 
   explicit Text_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : txt(_alloc)
+  : input(_alloc),
+    output(_alloc)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->txt = "";
+      this->input = "";
+      this->output = "";
     }
   }
 
   // field types and members
-  using _txt_type =
+  using _input_type =
     std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
-  _txt_type txt;
+  _input_type input;
+  using _output_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _output_type output;
 
   // setters for named parameter idiom
-  Type & set__txt(
+  Type & set__input(
     const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
-    this->txt = _arg;
+    this->input = _arg;
+    return *this;
+  }
+  Type & set__output(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->output = _arg;
     return *this;
   }
 
@@ -107,7 +119,10 @@ struct Text_
   // comparison operators
   bool operator==(const Text_ & other) const
   {
-    if (this->txt != other.txt) {
+    if (this->input != other.input) {
+      return false;
+    }
+    if (this->output != other.output) {
       return false;
     }
     return true;

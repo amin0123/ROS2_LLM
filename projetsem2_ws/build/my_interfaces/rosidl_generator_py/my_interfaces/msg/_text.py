@@ -55,14 +55,17 @@ class Text(metaclass=Metaclass_Text):
     """Message class 'Text'."""
 
     __slots__ = [
-        '_txt',
+        '_input',
+        '_output',
     ]
 
     _fields_and_field_types = {
-        'txt': 'string',
+        'input': 'string',
+        'output': 'string',
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
     )
 
@@ -70,7 +73,8 @@ class Text(metaclass=Metaclass_Text):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.txt = kwargs.get('txt', str())
+        self.input = kwargs.get('input', str())
+        self.output = kwargs.get('output', str())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -101,7 +105,9 @@ class Text(metaclass=Metaclass_Text):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.txt != other.txt:
+        if self.input != other.input:
+            return False
+        if self.output != other.output:
             return False
         return True
 
@@ -110,15 +116,28 @@ class Text(metaclass=Metaclass_Text):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
-    def txt(self):
-        """Message field 'txt'."""
-        return self._txt
+    @builtins.property  # noqa: A003
+    def input(self):  # noqa: A003
+        """Message field 'input'."""
+        return self._input
 
-    @txt.setter
-    def txt(self, value):
+    @input.setter  # noqa: A003
+    def input(self, value):  # noqa: A003
         if __debug__:
             assert \
                 isinstance(value, str), \
-                "The 'txt' field must be of type 'str'"
-        self._txt = value
+                "The 'input' field must be of type 'str'"
+        self._input = value
+
+    @builtins.property
+    def output(self):
+        """Message field 'output'."""
+        return self._output
+
+    @output.setter
+    def output(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, str), \
+                "The 'output' field must be of type 'str'"
+        self._output = value

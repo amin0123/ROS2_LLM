@@ -18,13 +18,15 @@ extern "C"
 // Constants defined in the message
 
 // Include directives for member types
-// Member 'txt'
+// Member 'input'
+// Member 'output'
 #include "rosidl_runtime_c/string.h"
 
 /// Struct defined in msg/Text in the package my_interfaces.
 typedef struct my_interfaces__msg__Text
 {
-  rosidl_runtime_c__String txt;
+  rosidl_runtime_c__String input;
+  rosidl_runtime_c__String output;
 } my_interfaces__msg__Text;
 
 // Struct for a sequence of my_interfaces__msg__Text.

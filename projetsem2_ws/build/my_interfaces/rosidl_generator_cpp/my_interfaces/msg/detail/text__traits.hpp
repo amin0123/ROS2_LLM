@@ -25,10 +25,17 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: txt
+  // member: input
   {
-    out << "txt: ";
-    rosidl_generator_traits::value_to_yaml(msg.txt, out);
+    out << "input: ";
+    rosidl_generator_traits::value_to_yaml(msg.input, out);
+    out << ", ";
+  }
+
+  // member: output
+  {
+    out << "output: ";
+    rosidl_generator_traits::value_to_yaml(msg.output, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -37,13 +44,23 @@ inline void to_block_style_yaml(
   const Text & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: txt
+  // member: input
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "txt: ";
-    rosidl_generator_traits::value_to_yaml(msg.txt, out);
+    out << "input: ";
+    rosidl_generator_traits::value_to_yaml(msg.input, out);
+    out << "\n";
+  }
+
+  // member: output
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "output: ";
+    rosidl_generator_traits::value_to_yaml(msg.output, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

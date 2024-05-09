@@ -12,7 +12,8 @@
 
 
 // Include directives for member types
-// Member `txt`
+// Member `input`
+// Member `output`
 #include "rosidl_runtime_c/string_functions.h"
 
 bool
@@ -21,8 +22,13 @@ my_interfaces__msg__Text__init(my_interfaces__msg__Text * msg)
   if (!msg) {
     return false;
   }
-  // txt
-  if (!rosidl_runtime_c__String__init(&msg->txt)) {
+  // input
+  if (!rosidl_runtime_c__String__init(&msg->input)) {
+    my_interfaces__msg__Text__fini(msg);
+    return false;
+  }
+  // output
+  if (!rosidl_runtime_c__String__init(&msg->output)) {
     my_interfaces__msg__Text__fini(msg);
     return false;
   }
@@ -35,8 +41,10 @@ my_interfaces__msg__Text__fini(my_interfaces__msg__Text * msg)
   if (!msg) {
     return;
   }
-  // txt
-  rosidl_runtime_c__String__fini(&msg->txt);
+  // input
+  rosidl_runtime_c__String__fini(&msg->input);
+  // output
+  rosidl_runtime_c__String__fini(&msg->output);
 }
 
 bool
@@ -45,9 +53,15 @@ my_interfaces__msg__Text__are_equal(const my_interfaces__msg__Text * lhs, const 
   if (!lhs || !rhs) {
     return false;
   }
-  // txt
+  // input
   if (!rosidl_runtime_c__String__are_equal(
-      &(lhs->txt), &(rhs->txt)))
+      &(lhs->input), &(rhs->input)))
+  {
+    return false;
+  }
+  // output
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->output), &(rhs->output)))
   {
     return false;
   }
@@ -62,9 +76,15 @@ my_interfaces__msg__Text__copy(
   if (!input || !output) {
     return false;
   }
-  // txt
+  // input
   if (!rosidl_runtime_c__String__copy(
-      &(input->txt), &(output->txt)))
+      &(input->input), &(output->input)))
+  {
+    return false;
+  }
+  // output
+  if (!rosidl_runtime_c__String__copy(
+      &(input->output), &(output->output)))
   {
     return false;
   }

@@ -6,7 +6,9 @@
 module my_interfaces {
   module msg {
     struct Text {
-      string txt;
+      string input;
+
+      string output;
     };
   };
 };

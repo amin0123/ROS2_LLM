@@ -1,0 +1,62 @@
+[0.012s] Invoking command in '/home/amin/projetsem2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin/projetsem2_ws/install/llm_chat2:/opt/ros/humble /usr/bin/cmake /home/amin/projetsem2_ws/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/amin/projetsem2_ws/install/more_interfaces
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.182s] -- The CXX compiler identification is GNU 11.4.0
+[0.188s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.252s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.318s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.325s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.463s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.532s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.540s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.620s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.759s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.759s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.759s]   more_interfaces --arguments-file
+[0.759s]   /home/amin/projetsem2_ws/build/more_interfaces/rosidl_adapter__arguments__more_interfaces.json
+[0.759s]   --output-dir
+[0.760s]   /home/amin/projetsem2_ws/build/more_interfaces/rosidl_adapter/more_interfaces
+[0.760s]   --output-file
+[0.760s]   /home/amin/projetsem2_ws/build/more_interfaces/rosidl_adapter/more_interfaces.idls)
+[0.760s]   returned error code 1:
+[0.760s] 
+[0.760s]   Traceback (most recent call last):
+[0.760s] 
+[0.760s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.760s]       return _run_code(code, main_globals, None,
+[0.760s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.760s]       exec(code, run_globals)
+[0.760s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.760s]       sys.exit(main())
+[0.760s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.760s]       abs_idl_file = convert_to_idl(
+[0.760s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.760s]       return convert_msg_to_idl(
+[0.761s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.761s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.761s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.761s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.761s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.761s]       self.base_type = BaseType(
+[0.761s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.761s]       raise InvalidResourceName(
+[0.761s] 
+[0.761s]   rosidl_adapter.parser.InvalidResourceName: 'llmchat' is an invalid message
+[0.761s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.761s] 
+[0.761s] Call Stack (most recent call first):
+[0.761s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.761s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.761s] 
+[0.761s] [0m
+[0.762s] -- Configuring incomplete, errors occurred!
+[0.762s] See also "/home/amin/projetsem2_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[0.769s] Invoked command in '/home/amin/projetsem2_ws/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin/projetsem2_ws/install/llm_chat2:/opt/ros/humble /usr/bin/cmake /home/amin/projetsem2_ws/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/amin/projetsem2_ws/install/more_interfaces

@@ -37,16 +37,33 @@ void Text_fini_function(void * message_memory)
   typed_message->~Text();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Text_message_member_array[1] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Text_message_member_array[2] = {
   {
-    "txt",  // name
+    "input",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(my_interfaces::msg::Text, txt),  // bytes offset in struct
+    offsetof(my_interfaces::msg::Text, input),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "output",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(my_interfaces::msg::Text, output),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -60,7 +77,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Text_message_
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Text_message_members = {
   "my_interfaces::msg",  // message namespace
   "Text",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(my_interfaces::msg::Text),
   Text_message_member_array,  // message members
   Text_init_function,  // function to initialize message memory (memory has to be allocated)

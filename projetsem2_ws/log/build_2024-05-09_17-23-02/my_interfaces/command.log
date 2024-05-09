@@ -1,0 +1,1 @@
+Invoking command in '/home/amin/projetsem2_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin/projetsem2_ws/install/llm_chat2:/opt/ros/humble /usr/bin/cmake --build /home/amin/projetsem2_ws/build/my_interfaces -- -j8 -l8

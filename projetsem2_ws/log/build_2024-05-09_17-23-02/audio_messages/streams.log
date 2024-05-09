@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/amin/projetsem2_ws/build/audio_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amin/projetsem2_ws/install/llm_chat2:/opt/ros/humble /usr/bin/cmake --build /home/amin/projetsem2_ws/build/audio_messages -- -j8 -l8
+[0.057s] [ 12%] Built target audio_messages__cpp
+[0.057s] [ 12%] Built target audio_messages__rosidl_generator_c
+[0.063s] [ 12%] Built target ament_cmake_python_copy_audio_messages
+[0.076s] [ 23%] Built target audio_messages__rosidl_typesupport_fastrtps_cpp
+[0.084s] [ 33%] Built target audio_messages__rosidl_typesupport_cpp
+[0.092s] [ 58%] Built target audio_messages__rosidl_typesupport_introspection_c
+[0.092s] [ 58%] Built target audio_messages__rosidl_typesupport_fastrtps_c
+[0.093s] [ 71%] Built target audio_messages__rosidl_typesupport_introspection_cpp
+[0.093s] [ 74%] Built target audio_messages__rosidl_typesupport_c
+[0.115s] [ 74%] Built target audio_messages
+[0.134s] [ 76%] Built target audio_messages__py
+[0.155s] [ 84%] Built target audio_messages__rosidl_generator_py
+[0.180s] [ 89%] Built target audio_messages__rosidl_typesupport_c__pyext
+[0.186s] [ 94%] Built target audio_messages__rosidl_typesupport_fastrtps_c__pyext
+[0.190s] [100%] Built target audio_messages__rosidl_typesupport_introspection_c__pyext
+[0.331s] running egg_info
+[0.332s] writing audio_messages.egg-info/PKG-INFO
+[0.332s] writing dependency_links to audio_messages.egg-info/dependency_links.txt
+[0.332s] writing top-level names to audio_messages.egg-info/top_level.txt
+[0.334s] reading manifest file 'audio_messages.egg-info/SOURCES.txt'
+[0.335s] writing manifest file 'audio_messages.egg-info/SOURCES.txt'
+[0.363s] [100%] Built target ament_cmake_python_build_audio_messages_egg

@@ -13,7 +13,8 @@
 
 
 // Include directives for member types
-// Member `txt`
+// Member `input`
+// Member `output`
 #include "rosidl_runtime_c/string_functions.h"
 
 #ifdef __cplusplus
@@ -35,16 +36,33 @@ void my_interfaces__msg__Text__rosidl_typesupport_introspection_c__Text_fini_fun
   my_interfaces__msg__Text__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember my_interfaces__msg__Text__rosidl_typesupport_introspection_c__Text_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember my_interfaces__msg__Text__rosidl_typesupport_introspection_c__Text_message_member_array[2] = {
   {
-    "txt",  // name
+    "input",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(my_interfaces__msg__Text, txt),  // bytes offset in struct
+    offsetof(my_interfaces__msg__Text, input),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "output",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(my_interfaces__msg__Text, output),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -58,7 +76,7 @@ static rosidl_typesupport_introspection_c__MessageMember my_interfaces__msg__Tex
 static const rosidl_typesupport_introspection_c__MessageMembers my_interfaces__msg__Text__rosidl_typesupport_introspection_c__Text_message_members = {
   "my_interfaces__msg",  // message namespace
   "Text",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(my_interfaces__msg__Text),
   my_interfaces__msg__Text__rosidl_typesupport_introspection_c__Text_message_member_array,  // message members
   my_interfaces__msg__Text__rosidl_typesupport_introspection_c__Text_init_function,  // function to initialize message memory (memory has to be allocated)

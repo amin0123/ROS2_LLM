@@ -1,1 +1,2 @@
-string txt
+string input
+string output

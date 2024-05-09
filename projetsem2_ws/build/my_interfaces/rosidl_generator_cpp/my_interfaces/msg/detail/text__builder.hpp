@@ -21,16 +21,32 @@ namespace msg
 namespace builder
 {
 
-class Init_Text_txt
+class Init_Text_output
 {
 public:
-  Init_Text_txt()
+  explicit Init_Text_output(::my_interfaces::msg::Text & msg)
+  : msg_(msg)
+  {}
+  ::my_interfaces::msg::Text output(::my_interfaces::msg::Text::_output_type arg)
+  {
+    msg_.output = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::my_interfaces::msg::Text msg_;
+};
+
+class Init_Text_input
+{
+public:
+  Init_Text_input()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::my_interfaces::msg::Text txt(::my_interfaces::msg::Text::_txt_type arg)
+  Init_Text_output input(::my_interfaces::msg::Text::_input_type arg)
   {
-    msg_.txt = std::move(arg);
-    return std::move(msg_);
+    msg_.input = std::move(arg);
+    return Init_Text_output(msg_);
   }
 
 private:
@@ -48,7 +64,7 @@ template<>
 inline
 auto build<::my_interfaces::msg::Text>()
 {
-  return my_interfaces::msg::builder::Init_Text_txt();
+  return my_interfaces::msg::builder::Init_Text_input();
 }
 
 }  // namespace my_interfaces
